@@ -25,5 +25,4 @@ public class ConfigClientController
         return "serverPort: "+serverPort+"\t\n\n configInfo: "+configInfo;
     }
 
-
 }
