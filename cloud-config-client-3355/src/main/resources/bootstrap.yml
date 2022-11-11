@@ -26,6 +26,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 
 # 暴露监控端点
+# 解决config client动态刷新问题
 management:
   endpoints:
     web:

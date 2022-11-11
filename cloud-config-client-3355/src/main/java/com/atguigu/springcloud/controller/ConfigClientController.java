@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @create 2020-02-21 18:08
  */
 @RestController
-@RefreshScope
+@RefreshScope //解决config client动态刷新问题
 public class ConfigClientController
 {
     @Value("${config.info}")
